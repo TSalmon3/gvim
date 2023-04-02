@@ -4,7 +4,7 @@ if has('gui_running')
 ## GUI Config/hide tool bar and menu bar
         set guioptions-=m
         set guioptions-=T
-        set guifont=CaskaydiaCove_Nerd_Font_Mono:h12
+        set guifont=CaskaydiaCove_Nerd_Font_Mono:h10
         autocmd GUIEnter * simalt ~x
 endif
 

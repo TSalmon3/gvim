@@ -26,4 +26,7 @@ config.leaderf_cache_dir = home .. '.cache/leaderf'
 config.gtags_config_path = 'D:/APP/Develop/Vim/vim90/gtags/share/gtags/gtags.conf'
 
 
+## gtags 缓存目录
+config.gtags_cache_dir = home .. '.cache/tags'
+
 

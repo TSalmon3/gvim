@@ -43,5 +43,5 @@
         // coc-clangd Configuration
         //coc-explorer Configuration
         "explorer.mouseMode": "singleclick",
+        "explorer.icon.enableNerdfont": true
 }
-

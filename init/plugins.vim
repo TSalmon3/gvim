@@ -12,24 +12,24 @@ Plug 'mhinz/vim-startify'
 Plug 'luochen1990/rainbow'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
-Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'octol/vim-cpp-enhanced-highlight', {'for':['c', 'cpp']}
 Plug 'romainl/vim-cool'
 Plug 'voldikss/vim-floaterm'
 Plug 'airblade/vim-rooter'
 Plug 'vim-autoformat/vim-autoformat'
 Plug 'gelguy/wilder.nvim'
 Plug 'Yggdroot/indentLine'
-Plug 'mg979/vim-visual-multi', {'branch':'master'}
+Plug 'mg979/vim-visual-multi'
 Plug 'justinmk/vim-dirvish'
 Plug 'Yggdroot/LeaderF'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'dense-analysis/ale'
+Plug 'neoclide/coc.nvim', {'branch': 'release'} 
+Plug 'dense-analysis/ale', {'for': ['c', 'cpp']}
 Plug 'luochen1990/rainbow'
 Plug 'liuchengxu/vista.vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
-Plug 'preservim/nerdcommenter'
+Plug 'preservim/nerdcommenter', {'for':['c']}
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-function'
 Plug 'sgur/vim-textobj-parameter'
@@ -37,12 +37,14 @@ Plug 'kana/vim-textobj-indent'
 Plug 'kana/vim-textobj-syntax'
 Plug 'kana/vim-textobj-line'
 Plug 'zhaosheng-pan/vim-im-select'
-Plug 'skywind3000/vim-dict'
-Plug 'babaybus/DoxygenToolkit.vim'
+Plug 'babaybus/DoxygenToolkit.vim',{'for': ['c', 'cpp']}
 Plug 'mbbill/undotree'
 
+Plug 'skywind3000/asyncrun.vim'
+Plug 'skywind3000/vim-quickui'
 # Plug 'ludovicchabant/vim-gutentags'
 # Plug 'skywind3000/gutentags_plus' 
+ 
 plug#end() 
 
 

@@ -6,7 +6,7 @@ import '../user.vim' as usr
 g:Lf_CacheDirectory = usr.config.leaderf_cache_dir
 g:Lf_GtagsAutoGenerater = 1
 g:Lf_Gtagslabel = 'default'
-g:Lf_Gtagsconf = usr.config.gtags_config_path
+# g:Lf_Gtagsconf = usr.config.gtags_config_path
 g:Lf_RootMarkers = ['.git']
 nnoremap <a-f> :Leaderf rg -i<cr>
 nnoremap <a-p> :Leaderf file<cr>
